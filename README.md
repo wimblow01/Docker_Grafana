@@ -26,4 +26,4 @@ Pour faciliter la mise en place des containers , nous avons utilisé un fichier 
 
 Ce fichier peut être lancer dans l'invit de commande avec 
 
-![docker-compose](./image/lancement du compose.png)
+![docker-compose](./image/lancement_du_compose.png)
