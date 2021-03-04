@@ -24,6 +24,6 @@ Les installations de Grafana et MySql  se fait via Docker.
 
 Pour faciliter la mise en place des containers , nous avons utilisé un fichier [docker-compose](/docker-compose.yml) qui contiendra les information nécessaires à leur création.
 
-Ce fichier peut être lancer dans l'invit de commande avec 
+Ce fichier peut être lancé dans l'invit de commande avec un ``cd PATH`` pour se placer dans le même dossier que le docker-compose puis avec ``docker-compose up -d``
 
 ![docker-compose](image/lancement_du_compose.PNG)
