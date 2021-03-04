@@ -65,8 +65,8 @@ Ensuite il y aura 2 possibilités en fonction des réglages:
 * connexion en mode viewer qui ne permet aucun changements et ne permet d'avoir accès qu'aux dashboards.
 
 Dans notre cas, il s'agit de la deuxième option. Nous avons choisi de faire 2 dashboards
-* vaccination totale par pays
-* vaccination par jours en France
+      * vaccination totale par pays
+      * vaccination par jours en France
 
 ![dashboard](image/dashboard.PNG)
 
