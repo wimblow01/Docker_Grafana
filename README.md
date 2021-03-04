@@ -40,6 +40,29 @@ On peut vérifier que les containers sont bien lancés avec la commande ``docker
 
 Au lancement du docker-compose, le fichier SQL contenant les données est stoqué dans le dossier ``docker-entrypoint-initdb.d`` grâce au volume.
 
-![volume](image/volume.PNG)
+![mysql](image/mysql.PNG)
+
+## Grafana
+
+On va suivre le même principe pour Grafana. On va créer 2 volumes. Ils vont utiliser les dossiers:
+
+![grafana](image/grafana.PNG)
+
+* **dashboard** qui contient 2 fichiers: 
+      * [dashboard.json](/dashboard.json) qui contient les informations pour les graph affichés
+      * [dashboard.yml](/dashboard.yml) qui contient les informations nécessaires à la création des dashboard
+
+* **datasource** qui contient 1 fichier:
+      * [automatic.yml](/automatic.yml) qui renseigne les informations nécessaires à la connexion à la base de données MySQL.
+
+
+
+
+
+
+
+
+
+
 
 
