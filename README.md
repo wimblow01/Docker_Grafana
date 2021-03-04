@@ -65,7 +65,7 @@ Dans notre cas, il s'agit de la deuxième option. Nous avons choisi de faire 2 d
 * vaccination totale par pays
 * vaccination par jours en France
 
-![dashboard](image/dashboard)
+![dashboard](image/dashboard.PNG)
 
 
 
