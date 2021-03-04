@@ -40,13 +40,11 @@ On peut vérifier que les containers sont bien lancés avec la commande ``docker
 
 Au lancement du docker-compose, le fichier SQL contenant les données est stoqué dans le dossier ``docker-entrypoint-initdb.d`` grâce au volume.
 
-![mysql](image/mysql.PNG)
+![volume](image/volume.PNG)
 
 ## Grafana
 
 On va suivre le même principe pour Grafana. On va créer 2 volumes. Ils vont utiliser les dossiers:
-
-![grafana](image/grafana.PNG)
 
 * **dashboard** qui contient 2 fichiers: 
       * [dashboard.json](/dashboard.json) qui contient les informations pour les graph affichés
@@ -56,8 +54,18 @@ On va suivre le même principe pour Grafana. On va créer 2 volumes. Ils vont ut
       * [automatic.yml](/automatic.yml) qui renseigne les informations nécessaires à la connexion à la base de données MySQL.
 
 
+## Accès à Grafana
 
+L'accès à Grafana se fait en écrivant dans la barre d'url ``localhost:80``. <br>
+Ensuite il y aura 2 possibilités en fonction des réglages:
+* connexion normale demandant de renseigner le ``user`` et le ``password`` qui sont *admin* par défaut 
+* connexion en mode viewer qui ne permet aucun changements et ne permet d'avoir accès qu'aux dashboards.
 
+Dans notre cas, il s'agit de la deuxième option. Nous avons choisi de faire 2 dashboards
+* vaccination totale par pays
+* vaccination par jours en France
+
+![dashboard](image/dashboard)
 
 
 
