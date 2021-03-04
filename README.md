@@ -13,7 +13,7 @@ Pour commencer nous avons traité les données mises à notre disposition:
 * Convertion du fichier .csv et .sql
 
 
-## Instalation 
+## Installation 
 
 Dans un premier temps, installer Docker Desktop [lien](https://www.docker.com/products/docker-desktop)
 
@@ -34,6 +34,7 @@ Cela va permettre de créer les 2 containers pour **MySQL** et **Grafana** et de
 
 On peut vérifier que les containers sont bien lancés avec la commande ``docker ps``
 
+![docker_ps](image/docker_ps.PNG)
 
 ## MySQL
 
