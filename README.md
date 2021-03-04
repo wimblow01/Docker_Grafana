@@ -59,6 +59,9 @@ On va suivre le même principe pour Grafana. On va créer 2 volumes. Ils vont ut
 L'accès à Grafana se fait en écrivant dans la barre d'url ``localhost:80``. <br>
 Ensuite il y aura 2 possibilités en fonction des réglages:
 * connexion normale demandant de renseigner le ``user`` et le ``password`` qui sont *admin* par défaut 
+
+![log_grafana](image/log_grafana.png)
+
 * connexion en mode viewer qui ne permet aucun changements et ne permet d'avoir accès qu'aux dashboards.
 
 Dans notre cas, il s'agit de la deuxième option. Nous avons choisi de faire 2 dashboards
