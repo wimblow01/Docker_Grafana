@@ -38,6 +38,8 @@ On peut vérifier que les containers sont bien lancés avec la commande ``docker
 
 ## MySQL
 
-Au lancement du docker-compose, le fichier SQL contenant les données est stoqué dans le dossier ``docker-entrypoint-initdb.d`` grâce au volume 
+Au lancement du docker-compose, le fichier SQL contenant les données est stoqué dans le dossier ``docker-entrypoint-initdb.d`` grâce au volume.
+
+![volume](image/volume.png)
 
 
