@@ -17,7 +17,7 @@ Pour commencer nous avons traité les données mises à notre disposition:
 
 Dans un premier temps, installer Docker Desktop [lien](https://www.docker.com/products/docker-desktop)
 
-Les installations de Grafana et MySql  se fait via Docker.
+Les installations de Grafana et MySql  se font via Docker.
 
 
 ## Création du docker-compose
