@@ -47,11 +47,11 @@ Au lancement du docker-compose, le fichier SQL contenant les données est stoqu�
 On va suivre le même principe pour Grafana. On va créer 2 volumes. Ils vont utiliser les dossiers:
 
 * **dashboard** qui contient 2 fichiers: 
-      * [dashboard.json](/dashboard.json) qui contient les informations pour les graph affichés
-      * [dashboard.yml](/dashboard.yml) qui contient les informations nécessaires à la création des dashboard
+   * [dashboard.json](dashboards/dashboard.json) qui contient les informations pour les graph affichés
+   * [dashboard.yml](dashboards/dashboard.yml) qui contient les informations nécessaires à la création des dashboard
 
 * **datasource** qui contient 1 fichier:
-      * [automatic.yml](/automatic.yml) qui renseigne les informations nécessaires à la connexion à la base de données MySQL.
+   * [automatic.yml](datasources/automatic.yml) qui renseigne les informations nécessaires à la connexion à la base de données MySQL.
 
 
 ## Accès à Grafana
