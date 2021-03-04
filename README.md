@@ -29,6 +29,9 @@ Ce fichier peut être lancé dans l'invit de commande avec un ``cd PATH`` pour s
 ![docker-compose](image/lancement_du_compose.PNG)
 
 Cela va permettre de créer les 2 containers pour **MySQL** et **Grafana** et de les lancer. <br>
+
+![containers](image/containers.PNG)
+
 On peut vérifier que les containers sont bien lancés avec la commande ``docker ps``
 
 
