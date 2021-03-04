@@ -27,3 +27,5 @@ Pour faciliter la mise en place des containers , nous avons utilisé un fichier 
 Ce fichier peut être lancé dans l'invit de commande avec un ``cd PATH`` pour se placer dans le même dossier que le docker-compose puis avec ``docker-compose up -d``
 
 ![docker-compose](image/lancement_du_compose.PNG)
+
+Cela va permettre de créer les 2 containers pour **MySQL** et **Grafana** et de les lancer. 
