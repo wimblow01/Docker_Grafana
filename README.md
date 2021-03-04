@@ -12,15 +12,16 @@ Pour commencer nous avons traité les données mises à notre disposition:
 * Le remplacement des valeurs NAN par des 0 pour une meilleure intégration 
 * Convertion du fichier .csv et .sql
 
-## Grafana
 
+## Instalation 
 
+Dans un premier temps, installer Docker Desktop [lien](https://www.docker.com/products/docker-desktop)
 
-## Mysql
-
-
-
-
+Les installations de Grafana et MySql  se fait via Docker.
 
 
 ## Création du docker-compose
+
+Pour faciliter la mise en place des containers , nous avons utilisé un fichier [docker-compose](/docker-compose.yml) qui contiendra les information nécessaires à leur création.
+
+Ce fichier peut être lancer dans l'invit de commande avec  
