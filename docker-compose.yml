@@ -1,0 +1,32 @@
+version: '2'
+services:
+
+  # simple myself setup
+  mysql:
+    container_name: mysql_covid 
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: covid
+    volumes: 
+      - ./data.sql:/docker-entrypoint-initdb.d/init.sql
+
+
+  # grafana used for graphing mysql data
+  grafana:
+    container_name: grafana_covid 
+    image: grafana/grafana
+    ports:
+      - '80:3000'
+    environment:
+      GRAFANA_ADMIN_USER: admin
+      GRAFANA_ADMIN_PASSWORD: admin
+      GF_AUTH_ORG_ROLE: viewer
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /etc/grafana/provisioning/dashboards/commetuveux.json
+    volumes: 
+      - ./dashboards/:/etc/grafana/provisioning/dashboards/
+      - ./datasources/:/etc/grafana/provisioning/datasources/
+
